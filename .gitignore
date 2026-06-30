@@ -31,6 +31,5 @@ attachments
 .agents
 .vscode
 .nvmrc
-*.md
-!README.md
+需求.md
 !web/README.md
