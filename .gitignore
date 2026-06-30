@@ -32,3 +32,5 @@ attachments
 .vscode
 .nvmrc
 *.md
+!README.md
+!web/README.md
