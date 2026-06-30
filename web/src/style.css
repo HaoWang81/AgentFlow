@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "@vue-flow/core/dist/style.css";
+@import "@vue-flow/core/dist/theme-default.css";
+@import "@vue-flow/controls/dist/style.css";
+@import "@vue-flow/minimap/dist/style.css";
+
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Reset VueFlow Default Theme */
+.vue-flow__node {
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.vue-flow__node.selected {
+  box-shadow: none !important;
+}
+
+/* Electron Draggable Header */
+.app-region-drag {
+  -webkit-app-region: drag;
+}
+
+.app-region-drag button,
+.app-region-drag a,
+.app-region-drag input,
+.app-region-no-drag {
+  -webkit-app-region: no-drag;
+}
